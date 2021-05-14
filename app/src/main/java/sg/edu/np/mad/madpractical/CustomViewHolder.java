@@ -13,6 +13,6 @@ public class CustomViewHolder extends RecyclerView.ViewHolder {
         super(itemView);
         userName = itemView.findViewById(R.id.recyclerName);
         userDesc = itemView.findViewById(R.id.recyclerDesc);
-        userImage = itemView.findViewById(R.id.recyclerImage);
+        userImage = itemView.findViewById(R.id.img_profile);
     }
 }

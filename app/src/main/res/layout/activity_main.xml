@@ -29,10 +29,10 @@
                 android:textStyle="bold"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintRight_toRightOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/recyclerImage" />
+                app:layout_constraintTop_toBottomOf="@+id/img_profile" />
 
             <ImageView
-                android:id="@+id/recyclerImage"
+                android:id="@+id/img_profile"
                 android:layout_width="128dp"
                 android:layout_height="0dp"
                 android:layout_marginTop="32dp"

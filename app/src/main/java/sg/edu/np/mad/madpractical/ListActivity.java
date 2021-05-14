@@ -30,7 +30,7 @@ public class ListActivity extends AppCompatActivity implements CustomAdaptor.OnI
             newUser.setId(i);
             userList.add(newUser);
         }
-        recyclerView = findViewById(R.id.recyclerview);
+        recyclerView = findViewById(R.id.rv);
         CustomAdaptor customAdaptor = new CustomAdaptor(userList);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
         recyclerView.setItemAnimator(new DefaultItemAnimator());

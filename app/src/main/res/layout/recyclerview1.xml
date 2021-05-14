@@ -6,7 +6,7 @@
     android:layout_height="wrap_content">
 
     <ImageView
-        android:id="@+id/recyclerImage"
+        android:id="@+id/img_profile"
         android:layout_width="96dp"
         android:layout_height="96dp"
         android:layout_margin="8dp"
