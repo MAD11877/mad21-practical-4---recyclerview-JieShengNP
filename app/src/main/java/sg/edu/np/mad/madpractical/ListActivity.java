@@ -22,7 +22,7 @@ public class ListActivity extends AppCompatActivity implements CustomAdaptor.OnI
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_list);
-        for (int i = 0; i < 19; i++){
+        for (int i = 0; i < 20; i++){
             User newUser = new User();
             newUser.setName("Name " + (new Random().nextInt() & Integer.MAX_VALUE));
             newUser.setDescription("Description " + (new Random().nextInt() & Integer.MAX_VALUE));
